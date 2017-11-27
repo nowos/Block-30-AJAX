@@ -39,7 +39,7 @@ $('#submit-btn').on('click', function () {
    });
    
 //New York Times
-   var nytimesUrl = 'http://api.nytimes.com/svc/search/v2/articlesearch.json?q=' + city + '&sort=newest&api-key=69ca3450a93f421ea0d1df6402c49630';
+   var nytimesUrl = 'https://api.nytimes.com/svc/search/v2/articlesearch.json?q=' + city + '&sort=newest&api-key=69ca3450a93f421ea0d1df6402c49630';
    $.getJSON(nytimesUrl, function (data) {
 
       $nytHeaderElem.text('New York Times Articles About ' + city);
