@@ -23,7 +23,7 @@ $('#submit-btn').on('click', function () {
    var data;
   
    //Google maps
-   $imgClass.append('<img class="bgimg" src="https://maps.googleapis.com/maps/api/streetview?size=600x300&location=' + address + '"/>');
+   $imgClass.append('<img class="bgimg" src="http://maps.googleapis.com/maps/api/streetview?size=600x300&location=' + address + '"/>');
  
    //Wikipedia
    $.ajax({
