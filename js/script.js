@@ -21,7 +21,7 @@ var onClickFunction = function () {
       var address = street + ',' + city;
 
       //Google maps
-      $imgClass.append('<img class="bgimg" src="http://maps.googleapis.com/maps/api/streetview?size=600x300&location=' + address + '"/>');
+      $imgClass.append('<img class="bgimg" src="http://maps.googleapis.com/maps/api/streetview?size=600x300&location=' + address + '&key=AIzaSyARYlLSUYf3vSR3IIL0pZe6hFTxZ7i3R4M"/>');
 
       //Wikipedia
       $.ajax({
