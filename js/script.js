@@ -57,8 +57,7 @@ var onClickFunction = function () {
 };
 
 var main = function () {
-   loadData();
    onClickFunction();
 };
-
+$('#form-container').submit(loadData);
 $(document).ready(main);
