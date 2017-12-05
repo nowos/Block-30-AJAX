@@ -41,7 +41,7 @@ var onClickFunction = function () {
       $.getJSON(nytimesUrl, function (data) {
 
          $nytHeaderElem.text('New York Times Articles About ' + city);
-         articles = data.response.docs;
+         var articles = data.response.docs;
          for (var i = 0; i < articles.length; i++) {
             var article = articles[i];
             $nytElem.append('<li class="article">' +
